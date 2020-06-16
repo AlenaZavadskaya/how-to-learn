@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 .header {
@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   position: relative;
-}
+  }
 
 .logo {
   width: 183px;
@@ -60,7 +60,7 @@
 }
 
 .header__link::after {
-  content: " \2192";
+  content: ' \2192';
   color: #2f80ed;
 }
 
@@ -81,7 +81,7 @@
   right: 0;
   top: 64px;
   z-index: 0;
-}
+  }
 
 .description {
   margin-top: 100px;
@@ -104,7 +104,7 @@
   font-weight: normal;
 }
 
-.main-text {
+.two-columns__main-text {
   width: 80%;
   min-width: 784px;
   flex-direction: column;
@@ -117,7 +117,7 @@
   margin: 0;
 }
 
-.two-columns__paragraph__margin {
+.two-columns__paragraph_margin{
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -213,7 +213,7 @@
   align-items: center;
   position: relative;
   justify-content: center;
-}
+  }
 
 .feynman__img {
   width: 867px;
@@ -259,7 +259,7 @@
 }
 
 .feynman__link::after {
-  content: " \2192";
+  content: ' \2192';
   color: black;
 }
 
@@ -297,6 +297,20 @@
 
 .table_theme_dark {
   margin-bottom: 90px;
+}
+
+.table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 0;
 }
 
 .footer {
@@ -347,7 +361,7 @@
   margin-bottom: 16px;
 }
 
-.link {
+.footer__links {
   text-decoration: none;
   color: white;
   line-height: 30px;
@@ -362,7 +376,7 @@
   display: flex;
 }
 
-.social-icon {
+.footer__icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
@@ -380,3 +394,6 @@
   display: flex;
   flex-direction: column;
 }
+
+
+
