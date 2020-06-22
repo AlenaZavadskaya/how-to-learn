@@ -73,7 +73,7 @@
   bottom: 0;
   right: 0;
   z-index: 2;
-  object-fit: fill;
+  object-fit: contain;
   object-position: right bottom;
 }
 
@@ -205,7 +205,7 @@
   }
 
 .feynman__img {
-  background-image: url(images/feynman.png);
+  background-image: url(../images/feynman.png);
   width: 867px;
   height: 637px;
   position: absolute;
@@ -266,7 +266,7 @@
 }
 
 .kaufman__triangle {
-  background-image: url(images/kaufman-triangle.svg);
+  background-image: url(../images/kaufman-triangle.svg);
   position: absolute;
   right: -210px;
   height: 877px;
