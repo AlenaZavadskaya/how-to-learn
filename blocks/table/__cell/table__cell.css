@@ -1,0 +1,6 @@
+.table__cell {
+	display: inline-block;
+	list-style: none;
+	width: 250px;
+	margin-top: 60px;
+}
