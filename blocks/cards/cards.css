@@ -9,7 +9,8 @@
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, 240px);
-	gap: 100px;
+  row-gap: 60px;
+  column-gap: 100px;
 	list-style: none;
 	margin: 0;
 	padding: 0;
