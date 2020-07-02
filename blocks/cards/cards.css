@@ -8,7 +8,7 @@
 	max-width: 920px;
 	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, 240px);
+  grid-template-columns: repeat(auto-fill, 240px);
   row-gap: 60px;
   column-gap: 100px;
 	list-style: none;
