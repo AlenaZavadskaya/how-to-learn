@@ -1,7 +1,7 @@
 # Лендинг о техниках и методиках эффективного обучения :books:
 
 
-## [Ссылка на сайт](https://alena.movies.students.nomoredomains.monster/)
+## [Ссылка на сайт](https://alenazavadskaya.github.io/how-to-learn/index.html)
 
 ### :page_with_curl: Содержание
 - Шапка
@@ -25,7 +25,7 @@
 - BEM Nasted
 - semantic HTML
 
-### :wrench: toDo
+### :wrench: To do
 - адаптивная, резиновая верстка
 - препроцессор SASS/LESS
 - добавить модальное окно
