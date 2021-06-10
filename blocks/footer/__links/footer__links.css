@@ -5,9 +5,10 @@
   font-size: 18px;
   font-weight: normal;
   margin-top: 0;
+	transition: 0.1s linear 0.1s;
 }
 
 .footer__links:hover {
   opacity: 0.7;
-  transition: 0.1s linear 0.1s;
+  cursor: pointer;
 }
